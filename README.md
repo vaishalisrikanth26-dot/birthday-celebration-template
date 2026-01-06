@@ -1,6 +1,6 @@
-# ��� Birthday Countdown Website
+# ��� anniversary Countdown 
 
-Beautiful birthday website with countdown, photo gallery, and celebration effects!
+Beautiful anniversary  with countdown, photo gallery, and celebration effects!
 
 ---
 
@@ -16,12 +16,12 @@ Open `http://localhost:5173`
 
 ## ✏️ Customize
 
-### 1. Birthday Date ⏰
+### 1. Anniversary Date ⏰
 
 **File:** `src/components/Countdown.jsx` (Line 21)
 
 ```javascript
-const targetDate = new Date("2025-12-18T00:00:00");
+const targetDate = new Date("2026-01-15T00:00:00");
 ```
 
 **Format Explanation:**
@@ -70,9 +70,9 @@ const targetDate = new Date("2025-12-25T12:00:00");
 **File:** `src/components/MessageCard.jsx` (Lines 17-28)
 
 ```javascript
-const recipientName = "Divyanshi";
-const senderName = "Ashmit";
-const message = `Your message here...`;
+const recipientName = "Akhil";
+const senderName = "vaishali";
+const message = `happyy anniversaryy LOVE...`;
 ```
 
 ---
@@ -97,7 +97,7 @@ There's a special **"��� Test Celebration"** button on the countdown page 
 
 **What it does:**
 - ✅ Skips countdown timer
-- ✅ Shows birthday celebration page immediately
+- ✅ Shows Anniversary celebration page immediately
 - ✅ Lets you preview everything (confetti, message, gallery, music)
 - ✅ Perfect for testing before the big day!
 
@@ -129,7 +129,7 @@ There's a special **"��� Test Celebration"** button on the countdown page 
 {/* ⚠️ TEST BUTTON - delete it from here⚠️ */}
 <button
   className="test-button"
-  onClick={onBirthdayReached}
+  onClick={onAnniversaryReached}
   title="Skip countdown and see celebration"
 >
   ��� Test Celebration
@@ -171,7 +171,7 @@ After testing with the test button, the countdown might stay on the celebration 
    - Click on `http://localhost:5173`
 
 4. **Delete the Data:**
-   - You'll see a row with key: `birthdayReached`
+   - You'll see a row with key: `AnniversaryReached`
    - Right-click on it
    - Click "Delete"
 
